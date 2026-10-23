@@ -1,0 +1,10 @@
+rent = float(input("Enter The Flat Rent:"))
+food_exp = float(input("Enter The amount Food Expense:"))
+electricity_exp = float(input("Enter The amount spent on Electricity:"))
+other = float(input("Enter The amount spent as sundry expense "))
+Roomates= int(input("Enter The number of Roommates:"))
+total_Exp = (rent + food_exp + electricity_exp + other)
+print(f"Total Expense will be {total_Exp}")
+per_person = total_Exp / Roomates
+print("Dividing The Expense Among The Roommates ...")
+print(f"Everyone must pay {per_person}")
